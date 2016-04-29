@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Baratheon" type="boolean" value="false" -->
+<!-- TemplateParam name="Bolton" type="boolean" value="false" -->
+<!-- TemplateParam name="Lannister" type="boolean" value="false" -->
+<!-- TemplateParam name="Martell" type="boolean" value="false" -->
+<!-- TemplateParam name="Stark" type="boolean" value="false" -->
+<!-- TemplateParam name="Targaryen" type="boolean" value="false" -->
+<!-- TemplateParam name="Tully" type="boolean" value="false" -->
+<!-- TemplateParam name="Tyrell" type="boolean" value="false" -->
+</head>
+
+<body>
+<ul>
+  <li><a href="../home-page/">Home Page</a></li>
+  <li><a href="../house-baratheon/">House Baratheon
+  </a></li>
+  
+  <!-- TemplateBeginIf cond="Baratheon" -->
+  <li><a href="../house-baratheon/robert-baratheon.html">Robert Baratheon</a></li>
+  <li><a href="../house-baratheon/stannis-baratheon.html">Stannis Baratheon</a></li>
+  <!-- TemplateEndIf -->
+  <li><a href="../house-bolton/">House Bolton</a>
+  </li>
+  <!-- TemplateBeginIf cond="Bolton" -->
+  <li><a href="../house-bolton/roose-bolton.html">Roose Bolton</a></li>
+  <li><a href="../house-bolton/ramsay-bolton.html">Ramsay Bolton</a></li>
+  <!-- TemplateEndIf -->
+  <li> <a href="../house-lannister/">House Lannister</a>  </li>
+  <!-- TemplateBeginIf cond="Lannister" -->
+  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Lannister" -->
+  <li><a href="../house-lannister/cersei-lannister.html">Cersei Lannister</a></li>
+  <li><a href="../house-lannister/jaime-lannister.html">Jaime Lannister</a></li>
+  <!-- TemplateEndIf -->
+  <li> <a href="../house-martell/">House Martell</a>  </li>
+  <!-- TemplateBeginIf cond="Martell" -->
+  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Martell" -->
+  <li><a href="../house-martell/oberyn-martell.html">Oberyn Martell</a></li>
+  <li><a href="../house-martell/doran-martell.html">Doran Martell</a></li>
+  <!-- TemplateEndIf -->
+  <li> <a href="../house-stark/">House Stark</a>  </li>
+  <!-- TemplateBeginIf cond="Stark" -->
+  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Stark" -->
+  <li><a href="../house-stark/arya-stark.html">Arya Stark</a></li>
+  <li><a href="../house-stark/sansa-stark.html">Sansa Stark</a></li>
+  <!-- TemplateEndIf -->
+  <li> <a href="../house-targaryen/">House Targaryen</a>  </li>
+  <!-- TemplateBeginIf cond="Targaryen" -->
+  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Targaryen" -->
+  <li><a href="../house-targaryen/viserys-targaryen.html">Viserys Targaryen</a></li>
+  <li><a href="../house-targaryen/daenerys-targaryen.html">Daenerys Targaryen</a></li>
+  <!-- TemplateEndIf -->
+  <li> <a href="../house-tully/">House Tully</a>  </li>
+  <!-- TemplateBeginIf cond="Tully" -->
+  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Tully" -->
+  <li><a href="../house-tully/lysa-tully.html">Lysa Tully</a></li>
+  <li><a href="../house-tully/edmure-tully.html">Edmure Tully</a></li>
+  <!-- TemplateEndIf -->
+  <li> <a href="../house-tyrell/">House Tyrell</a>  </li>
+  <!-- TemplateBeginIf cond="Tyrell" -->
+  <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Tyrell" -->
+  <li><a href="../house-tyrell/margaery-tyrell.html">Margaery Tyrell</a></li>
+  <li><a href="../house-tyrell/loras-tyrell.html">Loras Tyrell</a></li>
+  <!-- TemplateEndIf -->
+  <li> <!-- TemplateBeginEditable name="EditRegion3" -->Game of Houses<!-- TemplateEndEditable --></li>
+</ul>
+</body>
+</html>
